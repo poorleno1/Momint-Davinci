@@ -54,7 +54,6 @@ my.secrets
 !**/.env.example
 !**/.env.test.example
 cache.json
-api/data/
 owner.yml
 archive
 .vscode/settings.json
