@@ -6,9 +6,6 @@ module.exports = {
   // darkMode: 'class',
   darkMode: ['class'],
   theme: {
-    // colors: {
-    //   'gpt-dark-gray': '#343541',
-    // },
     fontFamily: {
       sans: ['Söhne', 'sans-serif'],
       mono: ['Söhne Mono', 'monospace'],
@@ -37,9 +34,9 @@ module.exports = {
           '400': '#acacb1',
           '500': '#8e8ea0',
           '600': '#565869',
-          '700': '#40414f', // Replacing .dark .dark:bg-gray-700 and .dark .dark:hover:bg-gray-700:hover
-          '800': '#343541', // Replacing .dark .dark:bg-gray-800, .bg-gray-800, and .dark .dark:hover:bg-gray-800\/90
-          '900': '#202123', // Replacing .dark .dark:bg-gray-900, .bg-gray-900, and .dark .dark:hover:bg-gray-900:hover
+          '700': '#2B2B2B', // Replacing .dark .dark:bg-gray-700 and .dark .dark:hover:bg-gray-700:hover
+          '800': '#1C1C1C', // Replacing .dark .dark:bg-gray-800, .bg-gray-800, and .dark .dark:hover:bg-gray-800\/90
+          '900': '##111111', // Replacing .dark .dark:bg-gray-900, .bg-gray-900, and .dark .dark:hover:bg-gray-900:hover
           '1000': '#444654',
         },
         green: {

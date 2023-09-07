@@ -138,6 +138,9 @@
   transition: all 1s ease-in-out;
 } */
 
+.dark body{
+  background-color: #121214 !important;
+}
 select {
   --tw-shadow: 0 0 transparent;
   -webkit-appearance: none;
@@ -154,6 +157,20 @@ select {
   font-size: 1rem;
   line-height: 1.5rem;
   padding: .5rem .75rem;
+}
+.convo-item{
+  border-top: 1px solid #555555;
+}
+
+.custom-message-bg-ai{
+  background-color: #242424 !important;
+}
+
+.MomintLogo{
+  width: 45px;
+  height: 45px;
+  margin-right: 6px;
+  border: 1px solid #616161;
 }
 
 .overflow-y-auto {
@@ -1224,13 +1241,13 @@ html {
 
 @-webkit-keyframes flash {
   0% {
-    background-color: hsla(0, 0%, 100%, 0.4);
+    background-color: hsla(0, 0%, 100%, 0);
   }
 }
 
 @keyframes flash {
   0% {
-    background-color: hsla(0, 0%, 100%, 0.4);
+    background-color: hsla(0, 0%, 100%, 0);
   }
 }
 

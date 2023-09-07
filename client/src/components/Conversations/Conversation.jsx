@@ -87,12 +87,12 @@ export default function Conversation({ conversation, retainView }) {
 
   const aProps = {
     className:
-      'animate-flash group relative flex cursor-pointer items-center gap-3 break-all rounded-md bg-gray-800 py-3 px-3 pr-14 hover:bg-gray-800',
+      'animate-flash group relative flex cursor-pointer items-center gap-3 break-all rounded-md bg-gray-800 py-4 px-3 pr-14 hover:bg-gray-800 convo-item',
   };
 
   if (currentConversation?.conversationId !== conversationId) {
     aProps.className =
-      'group relative flex cursor-pointer items-center gap-3 break-all rounded-md py-3 px-3 hover:bg-gray-800 hover:pr-4';
+      'group relative flex cursor-pointer items-center gap-3 break-all rounded-md py-4 px-3 hover:bg-gray-800 hover:pr-4 convo-item';
   }
 
   return (

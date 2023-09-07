@@ -18,7 +18,7 @@ const getIcon = (props) => {
         className={'relative flex items-center justify-center' + props?.className}
       >
         <img
-          className="rounded-sm"
+          className="rounded-full"
           src={
             user?.avatar ||
             `https://api.dicebear.com/6.x/initials/svg?seed=${
@@ -96,7 +96,7 @@ const getIcon = (props) => {
           height: size,
         }}
         className={cn(
-          'relative flex items-center justify-center rounded-sm text-white ',
+          'relative flex items-center justify-center rounded-full text-white ',
           props?.className ?? '',
         )}
       >

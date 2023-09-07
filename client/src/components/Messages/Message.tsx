@@ -92,7 +92,7 @@ export default function Message({
 
   if (!isCreatedByUser) {
     props.className =
-      'w-full border-b border-black/10 bg-gray-50 dark:border-gray-900/50 text-gray-800 dark:text-gray-100 group bg-gray-100 dark:bg-gray-1000';
+      'w-full border-b border-black/10 bg-gray-50 dark:border-gray-900/50 text-gray-800 dark:text-gray-100 group bg-gray-100 dark:bg-gray-1000 custom-message-bg-ai';
   }
 
   if (message?.bg && searchResult) {

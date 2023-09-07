@@ -48,7 +48,7 @@ export default function NavLinks() {
               <div className="-ml-0.9 -mt-0.8 h-9 w-8 flex-shrink-0">
                 <div className="relative flex">
                   <img
-                    className="rounded-sm"
+                    className="rounded-full"
                     src={
                       user?.avatar ||
                       `https://api.dicebear.com/6.x/initials/svg?seed=${
