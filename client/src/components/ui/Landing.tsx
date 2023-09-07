@@ -34,10 +34,10 @@ export default function Landing() {
           className="mb-10 ml-auto mr-auto mt-6 flex items-center justify-center gap-2 text-center text-4xl font-semibold sm:mb-16 md:mt-[10vh]"
         >
           <div className="relative flex"><img className="rounded-full MomintLogo" src="/assets/android-chrome-512x512.png"/></div>
-          {config?.appTitle || 'Davinci Chat'}
+          Davinci Chat
         </h1>
         <div className="items-start gap-3.5 text-center md:flex">
-          <div className="mb-8 flex flex-1 flex-col gap-3.5 md:mb-auto">
+          {/* <div className="mb-8 flex flex-1 flex-col gap-3.5 md:mb-auto">
             <h2 className="m-auto flex items-center gap-3 text-lg font-normal md:flex-col md:gap-2">
               <SunIcon />
               {localize('com_ui_examples')}
@@ -62,7 +62,7 @@ export default function Landing() {
                 &quot;{localize('com_ui_example_http_in_js')}&quot; →
               </button>
             </ul>
-          </div>
+          </div> */}
           <div className="mb-8 flex flex-1 flex-col gap-3.5 md:mb-auto">
             <h2 className="m-auto flex items-center gap-3 text-lg font-normal md:flex-col md:gap-2">
               <LightningIcon />

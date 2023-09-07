@@ -36,7 +36,7 @@ module.exports = {
           '600': '#565869',
           '700': '#2B2B2B', // Replacing .dark .dark:bg-gray-700 and .dark .dark:hover:bg-gray-700:hover
           '800': '#1C1C1C', // Replacing .dark .dark:bg-gray-800, .bg-gray-800, and .dark .dark:hover:bg-gray-800\/90
-          '900': '##111111', // Replacing .dark .dark:bg-gray-900, .bg-gray-900, and .dark .dark:hover:bg-gray-900:hover
+          '900': '#111111', // Replacing .dark .dark:bg-gray-900, .bg-gray-900, and .dark .dark:hover:bg-gray-900:hover
           '1000': '#444654',
         },
         green: {
